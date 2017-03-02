@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "niuyongjie site"
-date: 2017-03-02
+layout: default
+title: niuyongjie blog
 ---
+
 
 this is post florder test

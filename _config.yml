@@ -1,1 +1,3 @@
-baseurl:/niuyongjie.github.io
+name: niuyongjie
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title

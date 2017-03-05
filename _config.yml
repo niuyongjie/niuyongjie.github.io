@@ -1,16 +1,34 @@
-name: niuyongjie
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+# Site Settings
+title: "niuyongjie.tk"
+url: "https://niuyongjie.tk"
+email: "1054602234@qq.com"
+google_email: "yongjoeniu92@gmail.com"
+description: "一名老是折腾其他其技术的Java软件工程师"
+baseurl: ""
+
+# Author Settings
+author_name: "牛勇杰"
+author_url: "https://niuyongjie.tk"
+author_bio: "一名老是折腾其他其技术的Java软件工程师"
+
+# name: niuyongjie
+
+# Social Settings
+github_url: "https://github.com/niuyongjie"
 
 
 # Build Settings
-future: true	# 允许发布未来日期
-show_drafts: true   # 渲染草稿posts
-unpublished: true   # 渲染包含unpublished的posts
-lsi: true	# 生成相关帖子的索引
-incremental: true   # 只构建需要重新构建的posts和pages页面
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+future: ture # 允许发布未来日期
+show_drafts: true # 渲染草稿posts
+unpublished: true # 渲染包含unpublished的posts
+lsi: true # 生成相关帖子的索引
+incremental: true # 只构建需要重新构建的posts和pages页面
 profile: true
 
 # Serve Command Options 
 
-port: 8080
+port: 8080 # 监听8080端口
+detach: true # 分离服务启动线程
+show_dir_listing: true

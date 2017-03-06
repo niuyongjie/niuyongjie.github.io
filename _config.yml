@@ -4,14 +4,14 @@ url: "https://niuyongjie.tk"
 email: "1054602234@qq.com"
 google_email: "yongjoeniu92@gmail.com"
 description: "一名老是折腾其他其技术的Java软件工程师"
-#baseurl: ""
+baseurl: ""
 
 # Author Settings
 author_name: "牛勇杰"
 author_url: "https://niuyongjie.tk"
 author_bio: "一名老是折腾其他其技术的Java软件工程师"
 
-# name: niuyongjie
+name: niuyongjie
 
 # Social Settings
 github_url: "https://github.com/niuyongjie"
@@ -31,4 +31,4 @@ profile: true
 
 port: 8080 # 监听8080端口
 detach: true # 分离服务启动线程
-show_dir_listing: true
+#show_dir_listing: true

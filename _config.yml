@@ -1,7 +1,6 @@
 # Site Settings
 title: "niuyongjie.tk"
-url: "127.0.0.1"
-email: "1054602234@qq.com"
+url: "https://niuyongjie.tk"
 google_email: "yongjoeniu92@gmail.com"
 description: "一名老是折腾其他其技术的Java软件工程师"
 baseurl: ""
@@ -11,15 +10,13 @@ author_name: "牛勇杰"
 author_url: "https://niuyongjie.tk"
 author_bio: "一名老是折腾其他其技术的Java软件工程师"
 
-name: niuyongjie
-
 # Social Settings
 github_url: "https://github.com/niuyongjie"
 
 
 # Build Settings
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+#permalink: /blog/:year/:month/:day/:title
 future: ture # 允许发布未来日期
 show_drafts: true # 渲染草稿posts
 unpublished: true # 渲染包含unpublished的posts
@@ -32,3 +29,19 @@ profile: true
 port: 8080 # 监听8080端口
 detach: true # 分离服务启动线程
 #show_dir_listing: true
+
+
+# theme style
+style: styles-2
+
+# Profile Information
+name: 牛勇杰
+tagline: Java 软件工程师
+pic: profile.png
+
+# Sidebar links
+email: "1054602234@qq.com"
+phone: 170 0010 4677
+website: niuyongjie.tk
+linkedin: ""
+github: "niuyongjie"

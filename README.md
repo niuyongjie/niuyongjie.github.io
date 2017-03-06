@@ -1,3 +1,2 @@
-niuyongjie.github.io
-=====================
-This is my blog site.
+This based on CV Template.
+

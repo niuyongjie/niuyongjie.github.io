@@ -21,7 +21,7 @@ future: ture # 允许发布未来日期
 show_drafts: true # 渲染草稿posts
 unpublished: true # 渲染包含unpublished的posts
 #lsi: true # 生成相关帖子的索引
-incremental: true # 只构建需要重新构建的posts和pages页面
+incremental: false # 只构建需要重新构建的posts和pages页面
 profile: true
 
 # Serve Command Options 

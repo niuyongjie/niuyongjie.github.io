@@ -114,6 +114,11 @@ p {
   margin-top: 0;
   margin-bottom: 5px;
 }
+.sidebar-wrapper .education-container .fa {
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
+}
 .sidebar-wrapper .education-container .item {
   margin-bottom: 15px;
 }
@@ -142,6 +147,11 @@ p {
 }
 .sidebar-wrapper .languages-list li:last-child {
   margin-bottom: 0;
+}
+.sidebar-wrapper .interests-container .fa {
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
 }
 .sidebar-wrapper .interests-list {
   margin-bottom: 0;
@@ -227,6 +237,11 @@ p {
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
+.sidebar-wrapper .skills-container .fa {
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
+}
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
@@ -280,12 +295,12 @@ p {
   .skillset .level-title {
     display: inline-block;
     float: left;
-    width: 30%;
+    width: 100%;
     margin-bottom: 0;
   }
   .skillset .level-bar {
     display: inline-block;
-    width: 70%;
+    width: 100%;
     float: left;
     position: relative;
     top: 1px;

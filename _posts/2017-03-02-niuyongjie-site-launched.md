@@ -1,6 +1,5 @@
 ---
-layout: default
-title: niuyongjie blog
+layout: post
 ---
 
 

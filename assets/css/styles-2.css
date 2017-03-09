@@ -332,3 +332,6 @@ used for profile image
   padding:8px;
   border-bottom: 1px solid #d7d7d7;
 }
+.time-i{
+  display: inline-block;
+}

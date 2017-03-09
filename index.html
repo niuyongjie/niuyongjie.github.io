@@ -4,7 +4,7 @@ layout: default
 
   <ol class="posts-list">
     {% for post in site.posts %}
-      <li class="posts-list-li"><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i class="time-i"><span>{{ post.date | date_to_string }}</span></i></li>
+      <li class="posts-list-li"><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span class="time-i">{{ post.date | date_to_string }}</span></i></li>
     {% endfor %}
   </ol>
 

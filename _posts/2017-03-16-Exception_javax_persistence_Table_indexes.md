@@ -58,10 +58,29 @@ Caused by: java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax
 
 ### 解决的过程
 
+#### 统一项目工程中包版本
+
 首先,搜索项目中有哪些包有 ==javax.persistence.Table== 这个类.
 搜索结果发现hibernate-jpa和javax.persistence包中有相应的类.
 
-经检查发现 ==javax.persistence-2.0.0== 包中的
+[]
+
+用反编译工具分别查看两个包中的Table类.
+
+[]
+
+可以看出 ==javax.persistence== 包中的Table类中没有indexes()方法.
+由于容器启动过程有用到indexes()方法,所以,应该替换掉javax.persistence这个包.
+查询Hibernate的官网,可以得到项目中使用的hibernate4.6中 ==hibernate-jpa-2.1-api== 是基于 ==javax.persistence.2.1== 开发的,所以可以通过替换为  ==javax.persistence.2.1== 的包或修改pom.xml文件中对应的版本来时项目工程中的包版本保持统一.
+
+## 统一web容器中的包版本
+
+在完成上述工作后,启动容器发现还是报同样的错误,既然项目中的版本都已经统一,那么只有一种可能,就是,容器中自带的包的版本和项目中包的版本有冲突.
+通过排查Apusic的目录,发现Apusic使用的是 ==javax.persistence.2.0.5== 的包:
+
+[%Apusic%/lib/ext/javax.persistence-2.0.5.jar]
+
+将该包替换为 ==javax.persistence.2.0.5== 的包.
 
 
 

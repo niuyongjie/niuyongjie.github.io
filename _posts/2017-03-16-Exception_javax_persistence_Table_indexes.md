@@ -82,8 +82,24 @@ Caused by: java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax
 
 将该包替换为 ==javax.persistence.2.0.5== 的包.
 
+Apusic搜索包可以通过 ==Apusic应用服务器监控管理平台== 的环境概要面板进行搜索比较方便
+
+## 检查javaee核心包
+
+在统一web容器中的包版本后,容器启动依旧报相同错误,实在百思不得其解.项目中和web容器中能够搜索到的 ==javax.persistence== 包都已经替换为统一的版本.到底还有哪个地方引用了 ==javax.persistence.2.0== 
+
+通过各种google和猜测最终定位到了超级大boss: ==javaee_src.jar== .在其他容器中可能是j2ee.jar
+
+[]
+
+果断删除之,重启容器后,一切正常
+
 
 
 ## 总结
 
+总结下,首先根据报错提示信息,确定是 ==javax.persistence.Table== 中应为版本问题缺少indexes()方法.其次,在确定正确的包的版本的情况下统一工程项目中,web容器中和javaee.jar(j2ee.jar)等等中版本一致就可以解决这个问题.
+
 ## 参考资料
+
+

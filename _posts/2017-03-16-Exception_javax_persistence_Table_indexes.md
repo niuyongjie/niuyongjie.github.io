@@ -102,4 +102,13 @@ Apusic搜索包可以通过 ==Apusic应用服务器监控管理平台== 的环�
 
 ## 参考资料
 
+[Hibernate 社区讨论贴][1]
 
+[csdn 博客解决方法][2]
+
+[oschina 中的解决博文][3]
+
+
+  [1]: https://forum.hibernate.org/viewtopic.php?f=1&t=1036261&view=next
+  [2]: http://blog.csdn.net/eson_15/article/details/51273804
+  [3]: https://my.oschina.net/JasonZhang/blog/539095

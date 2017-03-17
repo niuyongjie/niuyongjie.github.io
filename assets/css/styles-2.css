@@ -336,3 +336,6 @@ used for profile image
   display: inline-block;
   font-size: x-small;
 }
+img{
+  width:100%;
+}

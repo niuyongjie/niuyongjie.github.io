@@ -13,6 +13,14 @@ author_bio: "一名老是折腾其他其技术的Java软件工程师"
 # Social Settings
 github_url: "https://github.com/niuyongjie"
 
+# Global Settings
+Encoding: utf-8
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
 
 # Build Settings
 markdown: kramdown

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exception:javax.persistence.Table.indexes()
-tags: Exception,Apusic,金蝶
+tags: [Exception,Apusic,金蝶]
 grammar_cjkRuby: true
 ---
 

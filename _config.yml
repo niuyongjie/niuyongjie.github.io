@@ -22,6 +22,11 @@ defaults:
       path: "_posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: "_posts"
+    values:
+      author: "Niu Yongjie"
 
 # Build Settings
 markdown: kramdown
@@ -38,7 +43,7 @@ profile: true # 在build的时候打印列表,显示耗费资源信息,来帮助
 port: 8080 # 监听8080端口
 detach: true # 分离服务启动线程
 #show_dir_listing: true
-baseurl: ""
+baseurl: "" # 不包含hostname
 
 
 # theme style

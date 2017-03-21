@@ -339,3 +339,9 @@ used for profile image
 img{
   width:100%;
 }
+.tag{
+    font-size: large;
+    background: ghostwhite;
+    padding: 4px;
+    border-radius: 10px;
+}

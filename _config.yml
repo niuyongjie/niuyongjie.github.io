@@ -22,11 +22,12 @@ defaults:
       path: "_posts"
     values:
       layout: "post"
+      author: "Niu Yongjie"
   -
     scope:
-      path: "_posts"
+      path: "_drafts"
     values:
-      author: "Niu Yongjie"
+      layout: "post"
 
 # Build Settings
 markdown: kramdown

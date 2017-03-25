@@ -28,6 +28,11 @@ defaults:
       path: "_drafts"
     values:
       layout: "post"
+  -
+    scope:
+      path: "assets/images"
+    values:
+      image: true
 
 # Build Settings
 markdown: kramdown

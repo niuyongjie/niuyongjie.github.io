@@ -18,17 +18,17 @@ grammar_cjkRuby: true
 1. 安装对应系统的补丁集合;如: [win7 sp1 补丁集合][2]
 2. 将你本机的IE版本与测试人员使用的IE版本保持一致.
 3. 安装 ==.NET Framework== .
-2. 打开系统IIS服务.
+4. 打开系统IIS服务.
 
 ![enter description here][3]
 
-3. 下载完整版的 ==Test director 8.0 ==
-4. 安装客户端插件
+5. 下载完整版的 ==Test director 8.0 ==
+6. 安装客户端插件
 
 ![enter description here][4]
 
-5. 以管理员的身份运行 ==TestDirector== .
-6. 输入测试人员提供的url.单击Go按钮,程序会自动运行,从服务器中下载必要的组件并安装注册.
+7. 以管理员的身份运行 ==TestDirector== .
+8. 输入测试人员提供的url.单击Go按钮,程序会自动运行,从服务器中下载必要的组件并安装注册.
 
 > **Note** 
 > 1. 在最后一步中可能出现卡住的现象,结束掉任务多运行几次就OK.

@@ -58,10 +58,16 @@ PPPOE拨号账户和密码
 
 进入管理界面中的上网设置.
 
+![enter description here][6]
+
 选择拨号方式为:PPPOE
 输入之前记录的用户名和密码
 
+![enter description here][7]
+
 在MAC网址克隆选项中,输入记录的MAC地址
+
+![enter description here][8]
 
 保存重启路由器
 
@@ -73,3 +79,6 @@ PPPOE拨号账户和密码
   [3]: https://www.github.com/niuyongjie/imageBed/raw/master/1500532308332.jpg
   [4]: https://www.github.com/niuyongjie/imageBed/raw/master/1500532152784.jpg
   [5]: https://www.github.com/niuyongjie/imageBed/raw/master/1500532637035.jpg
+  [6]: https://www.github.com/niuyongjie/imageBed/raw/master/1500587667050.jpg
+  [7]: https://www.github.com/niuyongjie/imageBed/raw/master/1500587736270.jpg
+  [8]: https://www.github.com/niuyongjie/imageBed/raw/master/1500587810416.jpg

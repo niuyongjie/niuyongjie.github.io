@@ -42,7 +42,7 @@ PPPOE拨号账户和密码
 
 进入网络配置页面,没有桥接的选项，只有 pppoe 这一条:
 
-!d[enter description here][3]
+![enter description here][3]
 
 在谷歌浏览器中,按住Ctrl+Shift+C,单击PPPOE会弹出以下内容:
 

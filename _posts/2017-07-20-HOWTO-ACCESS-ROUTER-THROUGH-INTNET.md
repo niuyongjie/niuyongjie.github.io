@@ -72,6 +72,7 @@ PPPOE拨号账户和密码
 保存重启路由器
 
 至此,设置完成.现在路由器WAN口获得的地址就是公网IP.
+若果想通过SSH访问自己的路由器或者在自己的路由器上搭建服务,可以查阅路由器官方文档或者问问百度,谷歌等!
 
 
   [1]: https://www.github.com/niuyongjie/imageBed/raw/master/1500527318334.jpg

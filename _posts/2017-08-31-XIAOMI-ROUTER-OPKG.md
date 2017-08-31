@@ -59,24 +59,3 @@ ln -s opkg /bin #为opkg创建软接
 > opkg update
 
 如果遇到无法下载的情况，根据终端提示屏蔽掉/etc/opkg.conf文件中的配置项(在行首添加#号)
-
-## 安装git服务
-
-在我们之前添加的软件仓库中，已经包含了git包，所以可以直接进行安装。
-
-```shell
-# 安装libc包
-cd /data 
-wget http://downloads.openwrt.org/barrier_breaker/14.07/ramips/mt7620a/packages/base/libc_0.9.33.2-1_ramips_24kec.ipk 
-opkg install libc_*.ipk
-
-# 安装git服务
-opkg install git
-
-# 为git可执行文件创建软链接
-ln -s /data/usr/bin/git-upload-pack /usr/bin/git-upload-pack
-ln -s /data/usr/bin/git-upload-archive /usr/bin/git-upload-archive
-ln -s /data/usr/bin/git-receive-archive /usr/bin/git-receive-archive
-ln -s /data/usr/bin/git /usr/bin/git
-
-```

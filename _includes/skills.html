@@ -35,44 +35,4 @@
 
 
 	</div>  
-	<div id="remaindTime" style='height:90px;    color: sandybrown;'></div>
 </section><!--//skills-section-->
-<script>
-
-function addDate(date, day) {
-	var baseDate = date.valueOf();
-	baseDate -= day * 24 * 60 * 60 * 1000;
-	return dateFormat(new Date(baseDate));
-}
-
-
-function dateFormat(date) {
-	var dateStr = date.getFullYear() + '-';
-
-	if ((date.getMonth() + 1) < 10) {
-		dateStr += '0' + (date.getMonth() + 1);
-	} else {
-		dateStr += date.getMonth() + 1;
-	}
-
-	if (date.getDate() < 10) {
-		dateStr += '-' + '0' + date.getDate();
-	} else {
-		dateStr += '-' + date.getDate();
-	}
-
-	return dateStr;
-}
-
-
-var items = [0, 1, 2, 5, 8, 14];
-
-var timeValue='';
-
-for (var i = 0; i < items.length; i++) {
-	timeValue += addDate(new Date(), items[i]) +"     ";
-}
-
-document.getElementById("remaindTime").innerText = timeValue;
-console.log(timeValue);
-</script>

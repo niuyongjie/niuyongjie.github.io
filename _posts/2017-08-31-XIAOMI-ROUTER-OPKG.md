@@ -1,4 +1,4 @@
----
+--- 
 title: 小米路由器_opkg包管理工具
 tags: [小米路由器,opkg]
 grammar_cjkRuby: true
@@ -23,7 +23,7 @@ cat /etc/opkg.conf
 #在第一行中得到仓库的地址http://downloads.openwrt.org/barrier_breaker/
 ```
 
-用浏览器访问上面的地址找到适合的cpu型号的软件包修改/etc/opkg.conf文件的内容如下：
+用浏览器访问上面的地址,进入适合的cpu型号的软件包目录。并修改/etc/opkg.conf文件的内容如下：
 
 ```
 src/gz attitude_adjustment_base http://downloads.openwrt.org/barrier_breaker/14.07/ramips/mt7620a/packages/base
@@ -48,14 +48,18 @@ arch ramips_24kec 300
 由于小米路由器默认没有opkg二进制文件，所以找一份适合的opkg文件上传到小米路由器中。
 
 ```
-scp opkg username@yoursship:/data  #上传文件
-ssh username@yoursship #ssh 登录到小米路由器
+scp opkg username@routerip:/data  #上传文件
+ssh username@yoursship #通过 ssh 登录到小米路由器
 cd /data
-ln -s opkg /bin #为opkg创建软接
+ln -s opkg /bin #为 opkg 创建软接
 ```
 
 4. 更新软件列表
 
 > opkg update
 
-如果遇到无法下载的情况，根据终端提示屏蔽掉/etc/opkg.conf文件中的配置项(在行首添加#号)
+> NOTE
+> 
+> 如果遇到无法下载的情况，根据终端提示屏蔽掉/etc/opkg.conf文件中的配置项(在行首添加#号)
+
+这个软件仓库提供了很多常用的软件，有兴趣可以浏览下。比如：git

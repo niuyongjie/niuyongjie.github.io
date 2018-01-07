@@ -5,7 +5,8 @@ grammar_cjkRuby: true
 ---
 
 
-在之前的博文中已经安装了opkg软件包管理器,并添加了相应的软件仓库，该已经包含了git包，所以可以直接进行安装。
+在之前的博文中已经安装了opkg软件包管理器,并添加了相应的软件仓库。
+现在我们通过该仓库安装git服务。
 
 ## 安装libc包
 
@@ -24,8 +25,19 @@ opkg install git
 ## 创建软连接
 
 ```shell?linenums
-ln -s /data/usr/bin/git-upload-pack /usr/bin/git-upload-pack
-ln -s /data/usr/bin/git-upload-archive /usr/bin/git-upload-archive
-ln -s /data/usr/bin/git-receive-archive /usr/bin/git-receive-archive
+ln -s /data/usr/bin/git /bin/git-upload-pack
+ln -s /data/usr/bin/git /bin/git-upload-archive
+ln -s /data/usr/bin/git /bin/git-receive-archive
+ln -s /data/usr/bin/git /bin/git-shell
 ln -s /data/usr/bin/git /usr/bin/git
 ```
+
+是不是很简单？
+当然，有余力的同学可以通过交叉编译来生成可用的安装包，再进行安装。
+至此，Git 服务已经安装完成，你的路由器现在就是一个小型的 Git 服务器。你可以新建个目录，运行 git init 来初始仓库，或者直接将 project.git 文件夹复制到路由器里，并通过以下的 url 来 clone 仓库
+
+```shell
+git clone root@routerip:/gitRepo_path.git
+```
+
+Have fun!

@@ -4,12 +4,12 @@
 title: "niuyongjie.tk"
 url: "https://niuyongjie.tk"
 google_email: "yongjoeniu92@gmail.com"
-description: "一名老是折腾其他其技术的Java软件工程师"
+description: "一名老是折腾其他其技术的 Java 软件工程师"
 
 # Author Settings
 author_name: "牛勇杰"
 author_url: "https://niuyongjie.tk"
-author_bio: "一名老是折腾其他其技术的Java软件工程师"
+author_bio: "一名老是折腾其他其技术的 Java 软件工程师"
 
 # Social Settings
 github_url: "https://github.com/niuyongjie"
@@ -38,18 +38,18 @@ defaults:
 markdown: kramdown
 #permalink: /blog/:year/:month/:day/:title
 future: ture # 允许发布未来日期
-show_drafts: true # 渲染草稿posts
-unpublished: true # 渲染包含unpublished的posts
+show_drafts: true # 渲染草稿 posts
+unpublished: true # 渲染包含 unpublished 的 posts
 #lsi: true # 生成相关帖子的索引
-incremental: false # 只构建需要重新构建的posts和pages页面
-profile: true # 在build的时候打印列表,显示耗费资源信息,来帮助提升性能
+incremental: false # 只构建需要重新构建的 posts 和 pages 页面
+profile: true # 在 build 的时候打印列表,显示耗费资源信息,来帮助提升性能
 
 # Serve Command Options 
 
-port: 8080 # 监听8080端口
+port: 8080 # 监听 8080 端口
 detach: true # 分离服务启动线程
 #show_dir_listing: true
-baseurl: "" # 不包含hostname
+baseurl: "" # 不包含 hostname
 
 
 # theme style
